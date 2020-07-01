@@ -2,14 +2,15 @@ Source: distwago
 Maintainer: Matthias Urlichs <matthias@urlichs.de>
 Section: python
 Priority: optional
-Build-Depends: dh-python, python3-setuptools, python3-all, debhelper (>= 13)
+Build-Depends: dh-python, python3-setuptools, python3-all, debhelper (>= 13),
+  distkv (>= 0.30),
 Standards-Version: 3.9.6
 Homepage: https://github.com/smurfix/distwago
 
 Package: distkv-wago
 Architecture: all
 Depends: ${misc:Depends}, ${python3:Depends},
-  distkv,
+  distkv (>= 0.30),
   python3-asyncwago,
 Replaces: python3-distwago, distkw-wago
 Conflicts: python3-distwago, distkw-wago
