@@ -1,3 +1,9 @@
+distkv-wago (0.7.0-2) unstable; urgency=medium
+
+  * Fix distkv dependency
+
+ -- Matthias Urlichs <matthias@urlichs.de>  Sun, 07 Feb 2021 18:37:49 +0100
+
 distkv-wago (0.7.0-1) unstable; urgency=medium
 
   * Merge
