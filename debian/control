@@ -1,4 +1,4 @@
-Source: distwago
+Source: distkv-wago
 Maintainer: Matthias Urlichs <matthias@urlichs.de>
 Section: python
 Priority: optional
